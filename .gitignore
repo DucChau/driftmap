@@ -1,0 +1,25 @@
+# Binary
+driftmap
+driftmap.exe
+
+# Build artifacts
+/dist/
+*.test
+*.out
+
+# Go workspace
+go.work
+go.work.sum
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Snapshot store (local data, not committed)
+.driftmap/
